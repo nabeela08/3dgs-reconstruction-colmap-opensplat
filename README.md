@@ -17,6 +17,14 @@ The pipeline covers:
 The pipeline reconstructed a real-world scene from 115 captured images,
 producing a final model containing 199,545 Gaussian primitives.
 
+### Reconstruction
+
+![Reconstruction](results/reconstruction_overview.png)
+
+### Before and After Post-processing
+
+![Before Cleanup](results/before_cleanup.png)
+
 ## Hardware
 
 - Apple MacBook Air (M1, 8 GB RAM)
@@ -31,11 +39,13 @@ producing a final model containing 199,545 Gaussian primitives.
 
 ## Training
 
+- Images: 115
 - Iterations: 7,000
 - Backend: CPU
 - Downscale factor: 2
 - Training time: approximately 33 hours
+- Final Gaussian primitives: 199,545
 
 ## Project Report
 
-The complete technical report is available in this repository.
+[Read the full project report](ARVR_project_report.pdf)

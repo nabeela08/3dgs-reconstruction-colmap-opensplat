@@ -17,14 +17,6 @@ The pipeline covers:
 The pipeline reconstructed a real-world scene from 115 captured images,
 producing a final model containing 199,545 Gaussian primitives.
 
-### Reconstruction
-
-![Reconstruction](results/reconstruction_overview.png)
-
-### Before and After Post-processing
-
-![Before Cleanup](results/before_cleanup.png)
-
 ## Hardware
 
 - Apple MacBook Air (M1, 8 GB RAM)
